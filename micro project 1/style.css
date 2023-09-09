@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*,
+::after,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+ul, li{
+    list-style: none;
+    padding: 5px;
+}
+
+h3{
+    color: #282828;
+    margin-bottom: 10px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFCD9E;
+    padding: 10px 50px;
+}
+.team{
+    color: #484848;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+.free{
+    color: #fff;
+    font-size: 12px;
+    margin: 10px 0 0 10px;
+}
+.show{
+    padding: 15px 0px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #282828;
+}
+input[type="email"] {
+    height: 40px;
+    border-radius: 5px;
+    border-color: #000;
+    width: 200px;
+}
+input::placeholder{
+    padding-left: 10px;
+    color: #88888888;
+}
+.btn-register{
+    background-color: #282828;
+    color: #fff;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #282828;
+    padding: 20px 0px;
+}
